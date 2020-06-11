@@ -118,7 +118,7 @@ user.txt
 ```
 ### TASK 2
 
-####PRIVESC
+#### PRIVESC
 ```
 sudo -l
 
